@@ -110,7 +110,7 @@ color_scheme_dark: true
 # this sets default color scheme to dark. (color_scheme_dark must be enabled)
 # page start will be dark color scheme. You can change color scheme using switches
 # this feature doesn't need switches.
-color_scheme_default_dark: false
+color_scheme_default_dark: true
 
 # default color will change based on browser dark color scheme (color_scheme_default_dark should be disabled.)
 # you don't need to enable this if any switch is enabled.
@@ -175,7 +175,8 @@ side_and_top_nav_buttons:
   - home:
     icon: "fa fa-home"
   - post-list:
-    icon: "fa fa-pencil-square-o"
+    icon: "fa fa-cog"
+    #icon: "fa fa-pencil-square-o"
   - archives:
     icon: "fa fa-archive"
   - projects:
@@ -294,7 +295,7 @@ google:
 # make sure google_analytics_id is set in _data/owner.yml
 # make sure your environment does not match with google.analytics.ignore
 cookie_consent:
-  enable: true
+  enable: false
   # if this is true, the consent box will be hidden even if the user does not change the switch position.
   hide_consent_bar_with_save_button: true
   gtag_default_config:
