@@ -30,9 +30,9 @@ linkedin_username: justinkrieger12
 github_username:  justinkrieger
 
 # Heading contents
-header_pages:
-  - about.md
-  - contact.md
+#header_pages:
+#  - about.md
+#  - contact.md
 
 # Build settings
 theme: minima
